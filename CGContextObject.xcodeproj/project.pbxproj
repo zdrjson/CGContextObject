@@ -14,6 +14,9 @@
 		10D5971E1B457C63001B01F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D5971D1B457C63001B01F4 /* Images.xcassets */; };
 		10D597211B457C63001B01F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D5971F1B457C63001B01F4 /* LaunchScreen.xib */; };
 		10D5972D1B457C63001B01F4 /* CGContextObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D5972C1B457C63001B01F4 /* CGContextObjectTests.m */; };
+		10D597381B457C78001B01F4 /* CGContextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D597371B457C78001B01F4 /* CGContextObject.m */; };
+		10D5973B1B457C90001B01F4 /* KView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D5973A1B457C90001B01F4 /* KView.m */; };
+		10D5973E1B457DEF001B01F4 /* RGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D5973D1B457DEF001B01F4 /* RGBColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		10D597261B457C63001B01F4 /* CGContextObjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGContextObjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D5972B1B457C63001B01F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10D5972C1B457C63001B01F4 /* CGContextObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextObjectTests.m; sourceTree = "<group>"; };
+		10D597361B457C78001B01F4 /* CGContextObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextObject.h; sourceTree = "<group>"; };
+		10D597371B457C78001B01F4 /* CGContextObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextObject.m; sourceTree = "<group>"; };
+		10D597391B457C90001B01F4 /* KView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KView.h; sourceTree = "<group>"; };
+		10D5973A1B457C90001B01F4 /* KView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KView.m; sourceTree = "<group>"; };
+		10D5973C1B457DEF001B01F4 /* RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBColor.h; sourceTree = "<group>"; };
+		10D5973D1B457DEF001B01F4 /* RGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				10D597151B457C63001B01F4 /* AppDelegate.m */,
 				10D597171B457C63001B01F4 /* ViewController.h */,
 				10D597181B457C63001B01F4 /* ViewController.m */,
+				10D597391B457C90001B01F4 /* KView.h */,
+				10D5973A1B457C90001B01F4 /* KView.m */,
+				10D597361B457C78001B01F4 /* CGContextObject.h */,
+				10D597371B457C78001B01F4 /* CGContextObject.m */,
+				10D5973C1B457DEF001B01F4 /* RGBColor.h */,
+				10D5973D1B457DEF001B01F4 /* RGBColor.m */,
 				10D5971A1B457C63001B01F4 /* Main.storyboard */,
 				10D5971D1B457C63001B01F4 /* Images.xcassets */,
 				10D5971F1B457C63001B01F4 /* LaunchScreen.xib */,
@@ -221,7 +236,10 @@
 			files = (
 				10D597191B457C63001B01F4 /* ViewController.m in Sources */,
 				10D597161B457C63001B01F4 /* AppDelegate.m in Sources */,
+				10D597381B457C78001B01F4 /* CGContextObject.m in Sources */,
+				10D5973B1B457C90001B01F4 /* KView.m in Sources */,
 				10D597131B457C63001B01F4 /* main.m in Sources */,
+				10D5973E1B457DEF001B01F4 /* RGBColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
